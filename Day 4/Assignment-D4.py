@@ -12,3 +12,5 @@ for i in range(start, end+1):
     if i == sum:
         print(i, 'is the first armstrong number')
         break
+    else:   # Not neccessary, just for the sake of completing 'if' loop with 'else'.
+        pass 

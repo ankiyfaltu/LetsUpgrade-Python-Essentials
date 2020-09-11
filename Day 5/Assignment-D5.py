@@ -33,8 +33,10 @@ print('There are total of ', len(prime_numbers_are), ' prime number in range of 
 print("")
 
 # Problem 3 -
-capitalize_string = lambda string: string.upper()
-letsUpgrade = ['Hey there!', 'Lets\' start coding and have some fun', 'Are you ready for this?']
-print(capitalize_string('hey there! How are you?'))
+capitalize_string = lambda string: string.upper()   # As per what sai has said "capitalize each and every letter".
+capitalize_firstletter = lambda string: string.title()  # As per the output shown in assignment pdf.
+letsUpgrade = ['Hey there!', 'Let\'s start coding and have some fun', 'Are you ready for this?']
 letsUpgradeConverted = list(map(capitalize_string, letsUpgrade))
+letsUpgradeConvertedV2 = list(map(capitalize_firstletter, letsUpgrade))
 print(letsUpgradeConverted)
+print(letsUpgradeConvertedV2)
